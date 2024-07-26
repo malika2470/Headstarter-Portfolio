@@ -185,16 +185,34 @@ section{
                 0 0 100px var(--main-color); 
 
 }
-.about-content h2{
-    font-size: 7rem; 
-    text-align: left; 
-}
-.about-content p{
+.about-content p {
     font-size: 1.8rem;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
-.about-content .btn{
-    margin: 3rem 0; 
+
+.about-content h2 {
+    font-size: 8rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
 }
+
+.about-content .btn {
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.about-content .btn:hover {
+    background-color: var(--text-color);
+    color: var(--main-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
 ::webskit-scrollbar{
     width: 20px; 
 }
@@ -204,6 +222,8 @@ section{
 ::webskit-scrollbar-track{
     background-color: var(--bg-color); 
 }
+
+
 .heading{
     text-align: center;
     font-size: 7rem;
