@@ -314,18 +314,19 @@ section{
 }
 
 .contact h2 {
-    font-size: 6rem;
-    color: var(--main-color);
-    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: var(--main-color); /* Adjust this to a more neutral color if too bright */
+    margin-bottom: 1rem;
 }
 
 .contact p {
-    font-size: 2rem;
-    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    color: #aaa; /* Lighter color for less emphasis */
 }
 
 .contact-form form {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -334,31 +335,30 @@ section{
 .contact-form textarea {
     width: 100%;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     border-radius: 0.5rem;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid var(--main-color);
+    background: #222; /* Subtle background color */
+    border: 1px solid #444; /* Less contrast for a simpler look */
     color: var(--text-color);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .contact-form textarea {
-    height: 150px;
+    height: 120px;
     resize: none; /* Prevent resizing of the textarea */
 }
 
 .contact-form button {
     cursor: pointer;
-    background: var(--main-color);
-    color: black;
-    font-size: 1.8rem;
-    padding: 1rem 3rem;
-    border-radius: 3rem;
-    transition: background 0.3s, transform 0.3s;
+    background: var(--main-color); /* Use a less intense shade of pink */
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    transition: background 0.3s;
 }
 
 .contact-form button:hover {
-    background: var(--text-color);
-    color: var(--main-color);
-    transform: translateY(-3px);
+    background: #9a67ea; /* Slightly darker shade on hover */
 }
