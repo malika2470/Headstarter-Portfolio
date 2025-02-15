@@ -1,4 +1,4 @@
-const textArray = ["Software Engineer", "Data Analyst", "Cloud Engineer", "Project Manager"];
+const textArray = ["Tech", "Data", "Project Coordination"];
 let currentIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
